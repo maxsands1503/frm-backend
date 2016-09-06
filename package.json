@@ -1,0 +1,24 @@
+{
+  "name": "frm-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsands1503/frm-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsands1503/frm-backend/issues"
+  },
+  "homepage": "https://github.com/maxsands1503/frm-backend#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "knex": "^0.11.10",
+    "pg": "^6.1.0"
+  }
+}
