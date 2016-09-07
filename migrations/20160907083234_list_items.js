@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.integer('list_id').references('lists.id');
     table.string('item_name');
-    table.date('date');
+    table.date('reminder_date');
     table.boolean('do_notify');
     table.integer('notify_int');
   })
