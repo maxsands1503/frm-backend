@@ -4,6 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments();
     table.integer('list_id').references('lists.id');
     table.integer('user_id').references('users.id');
+    table.integer('conn_id').references('connections.id');
     table.text('user_permission');
   })
 };
