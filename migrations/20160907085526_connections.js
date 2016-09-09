@@ -8,6 +8,8 @@ exports.up = function(knex, Promise) {
     table.integer('user_id').references('users.id')
     table.boolean('is_user')
     table.integer('connection_id').references('users.id')
+    table.varchar('phone');
+    table.string('email')
   })
 };
 
